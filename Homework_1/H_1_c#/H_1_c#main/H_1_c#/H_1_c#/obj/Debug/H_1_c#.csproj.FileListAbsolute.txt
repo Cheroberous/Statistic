@@ -1,0 +1,10 @@
+C:\Users\desil\Desktop\Statistics\HW\H_1_c#\H_1_c#\bin\Debug\H_1_c#.exe.config
+C:\Users\desil\Desktop\Statistics\HW\H_1_c#\H_1_c#\bin\Debug\H_1_c#.exe
+C:\Users\desil\Desktop\Statistics\HW\H_1_c#\H_1_c#\bin\Debug\H_1_c#.pdb
+C:\Users\desil\Desktop\Statistics\HW\H_1_c#\H_1_c#\obj\Debug\H_1_c#.csproj.AssemblyReference.cache
+C:\Users\desil\Desktop\Statistics\HW\H_1_c#\H_1_c#\obj\Debug\H_1_c_.Form1.resources
+C:\Users\desil\Desktop\Statistics\HW\H_1_c#\H_1_c#\obj\Debug\H_1_c_.Properties.Resources.resources
+C:\Users\desil\Desktop\Statistics\HW\H_1_c#\H_1_c#\obj\Debug\H_1_c#.csproj.GenerateResource.cache
+C:\Users\desil\Desktop\Statistics\HW\H_1_c#\H_1_c#\obj\Debug\H_1_c#.csproj.CoreCompileInputs.cache
+C:\Users\desil\Desktop\Statistics\HW\H_1_c#\H_1_c#\obj\Debug\H_1_c#.exe
+C:\Users\desil\Desktop\Statistics\HW\H_1_c#\H_1_c#\obj\Debug\H_1_c#.pdb
