@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canvas Drawing Example with Labels</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+
+    <script>
+        // Get the canvas element and its context
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+
+        // Draw a line
+        ctx.beginPath();
+        ctx.moveTo(50, 50); // Starting point
+        ctx.lineTo(150, 50); // Ending point
+        ctx.strokeStyle = "blue"; // Line color
+        ctx.lineWidth = 2; // Line width
+        ctx.stroke(); // Draw the line
+
+        // Add a label near the line
+        ctx.fillStyle = "blue"; // Label color
+        ctx.fillText("Line", 50, 30); // Label text and position
+
+        // Draw a point (small filled circle)
+        ctx.beginPath();
+        ctx.arc(50, 100, 2, 0, 2 * Math.PI);
+        ctx.fillStyle = "red"; // Point color
+        ctx.fill(); // Fill the point
+
+        // Add a label near the point
+        ctx.fillStyle = "red"; // Label color
+        ctx.fillText("Point", 50, 80); // Label text and position
+
+        // Draw a circle
+        ctx.beginPath();
+        ctx.arc(100, 150, 50, 0, 2 * Math.PI);
+        ctx.strokeStyle = "green"; // Circle color
+        ctx.lineWidth = 2; // Circle width
+        ctx.stroke(); // Draw the circle
+
+        // Add a label near the circle
+        ctx.fillStyle = "green"; // Label color
+        ctx.fillText("Circle", 90, 150); // Label text and position
+
+        // Draw a rectangle
+        ctx.beginPath();
+        ctx.rect(50, 250, 100, 50); // x, y, width, height
+        ctx.fillStyle = "orange"; // Rectangle color
+        ctx.fill(); // Fill the rectangle
+        ctx.strokeStyle = "black"; // Border color
+        ctx.lineWidth = 2; // Border width
+        ctx.stroke(); // Draw the rectangle
+
+        // Add a label near the rectangle
+        ctx.fillStyle = "black"; // Label color
+        ctx.fillText("Rectangle", 70, 280); // Label text and position
+    </script>
+</body>
+</html>
