@@ -93,11 +93,14 @@ Differents methods and techniques have been adapted in different fields: <br>
 
 
 ### All the files regarding the homework can be found in the above repository
+## (The chosen languages are C# and Javascript)
 
 Applications (intro)
 - Download Visual Studio
 - Write a program in C# or VB.NET that creates a window containing a single line, point, circle, rectangle
 - Write a program in JavaScript or TypeScript that creates a window containing a single line, point, circle, rectangle.
+
+
 
 
 
