@@ -1,0 +1,14 @@
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\bin\Debug\net6.0\class_intervals.exe
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\bin\Debug\net6.0\class_intervals.deps.json
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\bin\Debug\net6.0\class_intervals.runtimeconfig.json
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\bin\Debug\net6.0\class_intervals.dll
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\bin\Debug\net6.0\class_intervals.pdb
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\obj\Debug\net6.0\class_intervals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\obj\Debug\net6.0\class_intervals.AssemblyInfoInputs.cache
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\obj\Debug\net6.0\class_intervals.AssemblyInfo.cs
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\obj\Debug\net6.0\class_intervals.csproj.CoreCompileInputs.cache
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\obj\Debug\net6.0\class_intervals.dll
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\obj\Debug\net6.0\refint\class_intervals.dll
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\obj\Debug\net6.0\class_intervals.pdb
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\obj\Debug\net6.0\class_intervals.genruntimeconfig.cache
+C:\Users\desil\Desktop\Statistics\HW\class_intervals\class_intervals\obj\Debug\net6.0\ref\class_intervals.dll
