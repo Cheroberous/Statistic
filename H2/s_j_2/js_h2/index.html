@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Read CSV File and Extract Field</title>
+    <style>
+        /* Define CSS classes */
+        .text-container {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin: 10px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #ff5733;
+        }
+    </style>
+</head>
+<body>
+    <input type="file" id="fileInput">
+    <div id="output"></div>
+
+    <script>
+        // 1.Choose 3 variables from our surveys
+        // - one Qualitative
+        // - one Quantitative discrete
+        // - one Quantitative continuous
+
+        // create the most efficient algorithms to compute the frequency (absolute/relative/percentage) distribution of:
+
+        // - the 3 variables
+        // - the joint distribution of 2 variables (use a general logic, where variables could be any number)
+
+
+        // magari confronta team leader/player con life prioriies
+        
+
+        const age_map = new Map()           
+        const hard_worker = new Map()
+        const map_priorities = new Map()
+        const team_l_p = new Map()
+        const joint_p_t = new Map()
+        const set_fin_ord = new Map()
+
+
+        const life_prio_number_map=new Map()  // happiness: 0, ecc
+        
+        var P_t=0
+        var t_l_p_tot=0
+        var tot_n=0
+        var tot_p=0
+        var tot_h_w=0
+        var b=0
+
+
+            // prova a settare la map come global variable ed usare un'altra funzione per elaborare (mancano le altre due variabili)
+        document.getElementById("fileInput").addEventListener("change", function (event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+
+                reader.onload = function (e) {
+                    const content = e.target.result;
+                    
+                    const lines = content.split('\n');
+
+                    
+                    // const extractedValues = [];
+                    for (let i = 0; i < lines.length; i++) {
+                        const fields = lines[i].split(';');
+
+                        // if (fields.length >= 12) {
+                        //     extractedValues.push(fields[12]);
+
+                            var val= fields[12]
+                            var h_w_v=fields[4]
+                            var l_p=fields[21]
+                            var t_l_p=fields[6]
+                           
+
+                           
+
+
+                            if (age_map.has(val)) {
+                                const currentValue = age_map.get(val);
+                                age_map.set(val, currentValue + 1);
+                            } else {
+                                if(val!="Age" && val!="M" && val!=null){
+                                age_map.set(val, 1);}
+                            }
+
+                            if (hard_worker.has(h_w_v)) {
+                                const currentValue = hard_worker.get(h_w_v);
+                                hard_worker.set(h_w_v, currentValue + 1);
+                            } else {
+                                if(h_w_v!="Hard Worker (0-5)" && h_w_v!=null)
+                                hard_worker.set(h_w_v, 1);
+                            
+                            }
+
+
+                            if(t_l_p!=null && t_l_p!="Team leader or Team player ?" && t_l_p!=""){
+                                t_l_p=t_l_p.trim().toLowerCase()
+
+                                if (team_l_p.has(t_l_p)) {
+                                    const currentValue = team_l_p.get(t_l_p);
+                                    team_l_p.set(t_l_p, currentValue + 1);
+                                } else {
+                                    // console.log("vediamo qual e l'uno ==",t_l_p)
+                                    team_l_p.set(t_l_p, 1);
+                                
+                                }
+                            }
+
+
+                            
+                            if(l_p!=null && l_p!="Priorities in Life"){            
+                                                                       // ogni casella delle priorities aveva più valori (per la stessa persona)
+                                var lista_l_p=l_p.split(",")                                     // quindi ho dovuto iterare sulla lista dei valori
+                                // console.log("elementi ==")
+                                // console.log(lista_l_p)
+                                gruppo = t_l_p.trim().toLowerCase()
+                        
+                                for (var elem in lista_l_p){
+                                    // console.log(lista_l_p[elem])                   // stampa indice
+                                    console.log(typeof(lista_l_p[elem]))       
+
+                                    var da_inserire=lista_l_p[elem].trim().toLowerCase()                    // nessuna differenza tra "Time" e "time" o "   time"
+                                    
+
+
+                                    if (map_priorities.has(da_inserire)) {
+                                        const currentValue = map_priorities.get(da_inserire);
+                                        map_priorities.set(da_inserire, currentValue + 1);
+                                    } else {
+                                        
+                                        life_prio_number_map.set(da_inserire,b);
+                                        b=b+1
+                                        map_priorities.set(da_inserire, 1);
+                                    
+                                    }
+
+
+                                     // per joint
+                                    if(gruppo!=""){
+                                       
+                                        stringa_joint=life_prio_number_map.get(da_inserire)+";"+gruppo+"-"+da_inserire                
+                                        // console.log("stringa da inserire nel joint map ",stringa_joint)
+
+                                        
+
+                                        if (joint_p_t.has(stringa_joint)) {
+                                            const currentValue = joint_p_t.get(stringa_joint);
+                                            joint_p_t.set(stringa_joint, currentValue + 1);
+                                        } else {
+                                            joint_p_t.set(stringa_joint, 1);
+
+                                        }
+                                    }
+
+                                    // per joint
+
+                                }
+
+                            }
+                            
+                        
+                    }
+
+                    // Display the extracted values
+                    // const output = document.getElementById("output");
+                    // output.innerHTML = extractedValues.join("<br>");
+
+
+                    
+                // console.log(age_map)
+                // console.log(hard_worker)
+                // console.log(map_priorities)
+                // console.log(team_l_p)
+                // console.log(joint_p_t)
+                
+                // console.log(life_prio_number_map)
+                var p= Array.from(joint_p_t.keys()).sort() 
+                // console.log(p)
+
+
+                for (let i of p){
+
+                    da_stampare=i.split(";")
+                    
+                    // t=da_stampare.split(";")
+                    chi = da_stampare[1]
+                    cosa = joint_p_t.get(i)
+                    // console.log(da_stampare[1]+":"+joint_p_t.get(i))   // per ognuna le percentuali (?????)
+                    // console.log("val 1 ",chi)
+                    // console.log("val 2 ",cosa)
+
+                    set_fin_ord.set(chi,cosa)  // ok non so come
+                    
+                
+                    // voglio un a map con  team        leader happines
+                    // e subito dopo se esiste  team    player happiness
+                
+                }                                                     
+
+
+                console.log(set_fin_ord)
+
+                // const obj=joint_p_t
+                // var qualcosa=Object.keys(obj).sort()            
+                // console.log("lista di chiavi ordinate",qualcosa)
+
+                // const sortedKeys = Array.from(joint_p_t.keys()).sort()               // giusto (ma non serve perchè ordine alfabetico difficile)
+
+                // // Access values using the sorted keys
+                // for (const key of sortedKeys) {
+                //     const value = joint_p_t.get(key);
+                //     console.log(key + ": " + value);
+                // }
+
+
+
+            
+
+
+
+
+
+
+                var all_val= Array.from(age_map.values())
+                var all_key= Array.from(age_map.keys())
+                var tot_val=0;
+                var ver=0;
+
+                for (let element of all_val) {
+                    tot_val=tot_val+element
+                }
+                console.log("valori nell'array =="+all_val)
+                console.log("somma == "+tot_val)
+
+                for(var i=0;i<age_map.size;i++){
+                    var k=all_key[i]
+                    var v=all_val[i]
+                    var relative = v/tot_val
+                    ver=ver+relative
+                    // document.write("Absolute frequency for "+k+" == "+v+"<br>")
+                    // document.write("Percentage frequency for "+k+" == "+relative*100+"<br>")
+                    // document.write("Relative frequency for "+k+"("+v+") == "+relative+"<br>"+"<br>")
+                    // console.log("Relative frequency for "+k+" == "+relative)
+                }
+
+                // console.log("somma percentuali =="+ver)
+
+
+                
+                var all_val_hw= Array.from(hard_worker.values())
+                var all_key_hw= Array.from(hard_worker.keys())
+                
+
+                var tot_hw=0;
+                var ver_hw=0;
+
+                for (let element of all_val_hw) {
+                    tot_hw=tot_hw+element
+                }
+                console.log("valori nell'array =="+all_val_hw)
+                console.log("somma == "+tot_hw)
+
+
+                // document.write("<h1> hard workers </h1>")
+
+                for(var i=0;i<hard_worker.size;i++){
+                    var k1=all_key_hw[i]
+                    var v1=all_val_hw[i]
+                    var relative1 = v1/tot_hw
+                    ver_hw=ver_hw+relative1
+                    // document.write("Absolute frequency for "+k1+" == "+v1+"<br>")
+                    // document.write("Percentage frequency for "+k1+" == "+relative1*100+"<br>")
+                    // document.write("Relative frequency for "+k1+"("+v1+") == "+relative1+"<br>"+"<br>")
+                    // console.log("Relative frequency for "+k1+" == "+relative1)
+                }
+
+                console.log("somma percentuali hard work=="+ver_hw)
+
+
+                //               TERZA VARIABILE
+
+                var val_lp= Array.from(map_priorities.values())
+                var key_lp= Array.from(map_priorities.keys())
+                
+
+                var tot_lp=0;
+                var ver_lp=0;
+
+                for (let element of val_lp) {
+                    tot_lp=tot_lp+element
+                }
+                // console.log("valori nell'array =="+val_lp)
+                console.log("somma == "+tot_lp)
+
+
+                // document.write("<h1> life preferencies </h1>")
+
+                for(var i=0;i<map_priorities.size;i++){
+                    var k2=key_lp[i]
+                    var v2=val_lp[i]
+                    var relative2 = v2/tot_lp
+                    ver_lp=ver_lp+relative
+                    // document.write("Absolute frequency for "+k2+" == "+v2+"<br>")
+                    // document.write("Percentage frequency for "+k2+" == "+relative1*100+"<br>")
+                    // document.write("Relative frequency for "+k2+"("+v2+") == "+relative1+"<br>"+"<br>")
+                    // console.log("Relative frequency for "+k2+" == "+relative1)
+                }
+
+                console.log("somma percentuali life prior=="+ver_lp)
+
+
+
+                ////////////////////////////////////////////////////  TEAM leader/player   ///////////////////////////////////
+
+
+                var val_team= Array.from(team_l_p.values())
+                var key_team= Array.from(team_l_p.keys())
+                
+
+                var tot_team=0;
+                var ver_team=0;
+
+                for (let element of val_team) {
+                    tot_team=tot_team+element
+                }
+                console.log("valori nell'array =="+val_team) 
+                console.log("somma == "+tot_team)
+
+
+                // document.write("<h1> hard workers </h1>")
+
+                for(var i=0;i<team_l_p.size;i++){
+                    var k3=key_team[i]
+                    var v3=val_team[i]
+                    var relative3 = v3/tot_team
+                    // ver_team=ver_team+relative3
+                    // document.write("Absolute frequency for "+k3+" == "+v3+"<br>")
+                    // document.write("Percentage frequency for "+k3+" == "+relative3*100+"<br>")
+                    // document.write("Relative frequency for "+k3+"("+v3+") == "+relative3+"<br>"+"<br>")
+                    // console.log("Relative frequency for "+k3+" == "+relative3)
+                }
+
+                console.log("somma percentuali team =="+ver_team)
+
+
+                //                                 joint distribution (write)
+
+
+                // 
+                // 
+
+                var val_joint= Array.from(set_fin_ord.values())
+                var key_joint= Array.from(set_fin_ord.keys())
+                
+
+                var tot_joint=0;
+                var ver_joint=0;
+                var partial_tot=0
+
+                for (let element of val_joint) {
+                    tot_joint=tot_joint+element
+                }
+                console.log("valori nell'array =="+val_joint) 
+                console.log("somma == "+tot_joint)
+
+
+                // document.write("<h1> hard workers </h1>")
+
+                for(var i=0;i<set_fin_ord.size;i++){
+                    var k4=key_joint[i]                       // team player
+                    var v4=val_joint[i] 
+                    var chi_cosa=k4.split("-")                 //team player-happy
+                    var relative4 = (v4/tot_joint) //.toFixed(2)
+
+                    if( i+1<set_fin_ord.size){
+                        var v4_next=val_joint[i+1]
+                        tot= v4+v4_next
+                        var chi_cosa_next=key_joint[i+1].split("-")
+                        console.log(chi_cosa)
+                        if(chi_cosa[1]==chi_cosa_next[1]){
+                            // calcola altra percentuale
+                            per1=((v4/tot)*100).toFixed(2)
+                            per2=((v4_next/tot)*100).toFixed(2)
+                            document.write("percentage frequency of Team leader that choose <b>"+chi_cosa[1]+"</b> == "+per1+"%"+"<br>")
+                            // document.write("total perc of "+chi_cosa[0]+" for "+chi_cosa[1]+" == "+(relative4*100).toFixed(2)+"%"+"<br>") 
+                            // percentuale di team player che hanno scelto x rispetto a tutte le persone  (poco senso)
+                            document.write("percentage frequency of Team Player that choose <b>"+chi_cosa_next[1]+"</b> == "+per2+"%"+"<br> <br>")
+
+                            //non funziona il css integrato
+                            // document.write('<div class="text-container">');
+                            // document.write('<p> percentage frequency of Team leader that choose <span class="highlight">'+chi_cosa[1]+' </span> <span class="highlight"> == '+per1+' </span> <br>')
+                            // document.write(' percentage frequency of Team Player that choose <span class="highlight">'+chi_cosa_next[1]+' </span> <span class="highlight"> == '+per2+' </span> </p>')
+                            // document.write('</div>');
+                            i=i+1
+                        }
+                        else{
+                            // document.write("valore unico per "+chi_cosa[0]+" "+v4+"<br>")
+                            // document.write("total perc of "+chi_cosa[0]+" for "+chi_cosa[1]+" == "+(relative4*100).toFixed(2)+"%"+"<br>")
+
+                        }
+                    }
+                   
+           
+                }
+
+                console.log("somma percentuali team =="+ver_joint)
+
+
+
+
+
+
+                };
+
+             
+
+
+
+                reader.readAsText(file);
+            
+                
+
+            }
+            
+          
+
+        });
+
+
+
+
+
+
+    </script>
+</body>
+</html>
+
+
