@@ -1,0 +1,186 @@
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.exe
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.deps.json
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.runtimeconfig.json
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.AssemblyReference.cache
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form1.resources
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.GenerateResource.cache
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfoInputs.cache
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfo.cs
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.CoreCompileInputs.cache
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\refint\App_SamplingDist_C.dll
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.genruntimeconfig.cache
+C:\Users\super\Desktop\Statistics\Lez4\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\ref\App_SamplingDist_C.dll
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.AssemblyReference.cache
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form1.resources
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.GenerateResource.cache
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfoInputs.cache
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfo.cs
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.CoreCompileInputs.cache
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\refint\App_SamplingDist_C.dll
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.exe
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.deps.json
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.runtimeconfig.json
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.genruntimeconfig.cache
+C:\Users\super\Desktop\Progetti Statistics\hw6\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\ref\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.exe
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.deps.json
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.runtimeconfig.json
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form1.resources
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.GenerateResource.cache
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfoInputs.cache
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfo.cs
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.CoreCompileInputs.cache
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\refint\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.genruntimeconfig.cache
+C:\Users\desil\Desktop\App_SamplingDist_C\App_SamplingDist_C\obj\Debug\net6.0-windows\ref\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.exe
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.deps.json
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.runtimeconfig.json
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form1.resources
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.GenerateResource.cache
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfoInputs.cache
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfo.cs
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.CoreCompileInputs.cache
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\refint\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.genruntimeconfig.cache
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\ref\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form2.resources
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form1.resources
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form2.resources
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.GenerateResource.cache
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfoInputs.cache
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfo.cs
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.CoreCompileInputs.cache
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\obj\Debug\net6.0-windows\refint\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.exe
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.deps.json
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.runtimeconfig.json
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.genruntimeconfig.cache
+C:\Users\desil\Desktop\H3_c# - Copia\App_SamplingDist_C\obj\Debug\net6.0-windows\ref\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.exe
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.deps.json
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.runtimeconfig.json
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form1.resources
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form2.resources
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.GenerateResource.cache
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfoInputs.cache
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfo.cs
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.CoreCompileInputs.cache
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\obj\Debug\net6.0-windows\refint\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.genruntimeconfig.cache
+C:\Users\desil\Desktop\H3_c# - prima_di_t2\App_SamplingDist_C\obj\Debug\net6.0-windows\ref\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.exe
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.deps.json
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.runtimeconfig.json
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form1.resources
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form2.resources
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.GenerateResource.cache
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfoInputs.cache
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfo.cs
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.CoreCompileInputs.cache
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\obj\Debug\net6.0-windows\refint\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.genruntimeconfig.cache
+C:\Users\desil\Desktop\H3_c# - test\App_SamplingDist_C\obj\Debug\net6.0-windows\ref\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.exe
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.deps.json
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.runtimeconfig.json
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form1.resources
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form2.resources
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.GenerateResource.cache
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfoInputs.cache
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfo.cs
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.CoreCompileInputs.cache
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\refint\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.genruntimeconfig.cache
+C:\Users\desil\Desktop\Statistics\H3\H3_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\ref\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.exe
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.deps.json
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.runtimeconfig.json
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form1.resources
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form2.resources
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.GenerateResource.cache
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfoInputs.cache
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfo.cs
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.CoreCompileInputs.cache
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\refint\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.genruntimeconfig.cache
+C:\Users\desil\Desktop\Statistics\H5\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\ref\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.exe
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.deps.json
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.runtimeconfig.json
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form1.resources
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form2.resources
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.GenerateResource.cache
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfoInputs.cache
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfo.cs
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.CoreCompileInputs.cache
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\refint\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.genruntimeconfig.cache
+C:\Users\desil\Desktop\Statistics\H6\h5_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\ref\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.exe
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.deps.json
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.runtimeconfig.json
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\bin\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form1.resources
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.Form2.resources
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.GenerateResource.cache
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfoInputs.cache
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.AssemblyInfo.cs
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.csproj.CoreCompileInputs.cache
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\refint\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\App_SamplingDist_C.genruntimeconfig.cache
+C:\Users\desil\Desktop\Statistics\H6\h6_c#\App_SamplingDist_C\obj\Debug\net6.0-windows\ref\App_SamplingDist_C.dll

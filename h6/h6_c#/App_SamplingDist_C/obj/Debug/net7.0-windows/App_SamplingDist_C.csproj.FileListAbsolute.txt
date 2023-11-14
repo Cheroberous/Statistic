@@ -1,0 +1,17 @@
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\bin\Debug\net7.0-windows\App_SamplingDist_C.exe
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\bin\Debug\net7.0-windows\App_SamplingDist_C.deps.json
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\bin\Debug\net7.0-windows\App_SamplingDist_C.runtimeconfig.json
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\bin\Debug\net7.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\bin\Debug\net7.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\obj\Debug\net7.0-windows\App_SamplingDist_C.Form1.resources
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\obj\Debug\net7.0-windows\App_SamplingDist_C.Form2.resources
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\obj\Debug\net7.0-windows\App_SamplingDist_C.csproj.GenerateResource.cache
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\obj\Debug\net7.0-windows\App_SamplingDist_C.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\obj\Debug\net7.0-windows\App_SamplingDist_C.AssemblyInfoInputs.cache
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\obj\Debug\net7.0-windows\App_SamplingDist_C.AssemblyInfo.cs
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\obj\Debug\net7.0-windows\App_SamplingDist_C.csproj.CoreCompileInputs.cache
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\obj\Debug\net7.0-windows\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\obj\Debug\net7.0-windows\refint\App_SamplingDist_C.dll
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\obj\Debug\net7.0-windows\App_SamplingDist_C.pdb
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\obj\Debug\net7.0-windows\App_SamplingDist_C.genruntimeconfig.cache
+C:\Users\desil\Desktop\Statistics\h6_bis\h6_c#\App_SamplingDist_C\obj\Debug\net7.0-windows\ref\App_SamplingDist_C.dll
