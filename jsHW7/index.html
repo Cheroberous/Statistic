@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <script src="ResizableRectangle.js"></script>
+    <script src="Chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Homework 07</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-3">
+
+                <div class="row">
+                    <div class="col">
+                        Select SDE
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="SDERadio" id="abm" checked="true"
+                                onchange="showParameters('abm', 'abm-parameters')">
+                            <label class="form-check-label" for="abm">
+                                Arithmetic Brownian Motion
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="SDERadio" id="gbm"
+                                onchange="showParameters('gbm', 'gbm-parameters')">
+                            <label class="form-check-label" for="gbm">
+                                Geometric Brownian Motion
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="SDERadio" id="uhl"
+                                onchange="showParameters('uhl', 'uhl-parameters')">
+                            <label class="form-check-label" for="uhl">
+                                Ornstein-Uhlenbeck
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="SDERadio" id="vas"
+                                onchange="showParameters('vas', 'vas-parameters')">
+                            <label class="form-check-label" for="vas">
+                                Vasicek
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="SDERadio" id="hlw"
+                                onchange="showParameters('hlw', 'hlw-parameters')">
+                            <label class="form-check-label" for="hlw">
+                                Hull-White
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="SDERadio" id="cir"
+                                onchange="showParameters('cir', 'cir-parameters')">
+                            <label class="form-check-label" for="cir">
+                                Cox-Ingersoll-Ross
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="SDERadio" id="blk"
+                                onchange="showParameters('blk', 'blk-parameters')">
+                            <label class="form-check-label" for="blk">
+                                Black-Karasinski
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="SDERadio" id="hst"
+                                onchange="showParameters('hst', 'hst-parameters')">
+                            <label class="form-check-label" for="hst">
+                                Heston
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="SDERadio" id="chn"
+                                onchange="showParameters('chn', 'chn-parameters')">
+                            <label class="form-check-label" for="chn">
+                                Chen
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <canvas id="myCanvas" width="800" height="600" style="background-color: white;"
+                    oncontextmenu="return false"></canvas>
+            </div>
+
+            <div class="col-3">
+                <div class="row">
+                    <div class="col">
+                        Parameters
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="input-group input-group">
+                            <span class="input-group-text" id="m">M</span>
+                            <input type="text" id="m-input" class="form-control" aria-label="Number of paths"
+                                aria-describedby="m">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="input-group input-group">
+                            <span class="input-group-text" id="n">N</span>
+                            <input type="text" id="n-input" class="form-control" aria-label="Number of times"
+                                aria-describedby="n">
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <!-- ABM Parameters -->
+                <div id="abm-parameters" class="row">
+                    <div class="col-6">
+                        <div class="input-group input-group">
+                            <span class="input-group-text" id="abm-mu">mu</span>
+                            <input type="text" id="abm-mu-input" class="form-control" aria-label="Drift Coefficient"
+                                aria-describedby="abm-mu">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="input-group input-group">
+                            <span class="input-group-text" id="abm-sigma">sigma</span>
+                            <input type="text" id="abm-sigma-input" class="form-control"
+                                aria-label="Diffusion Coefficient" aria-describedby="abm-sigma">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GBM Parameters -->
+                <div id="gbm-parameters" class="row d-none">
+                    <div class="col-6">
+                        <div class="input-group input-group">
+                            <span class="input-group-text" id="gbm-mu">mu</span>
+                            <input type="text" id="gbm-mu-input" class="form-control" aria-label="Drift Coefficient"
+                                aria-describedby="gbm-mu">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="input-group input-group">
+                            <span class="input-group-text" id="gbm-sigma">sigma</span>
+                            <input type="text" id="gbm-sigma-input" class="form-control"
+                                aria-label="Diffusion Coefficient" aria-describedby="gbm-sigma">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ornstein-Uhlenbeck Parameters -->
+                <div id="uhl-parameters" class="row d-none">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="input-group input-group">
+                                    <span class="input-group-text" id="uhl-mu">mu</span>
+                                    <input type="text" id="uhl-mu-input" class="form-control"
+                                        aria-label="Long-term mean" aria-describedby="uhl-mu">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="input-group input-group">
+                                    <span class="input-group-text" id="uhl-sigma">sigma</span>
+                                    <input type="text" id="uhl-sigma-input" class="form-control" aria-label="Volatility"
+                                        aria-describedby="uhl-sigma">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="input-group input-group">
+                                    <span class="input-group-text" id="uhl-theta">theta</span>
+                                    <input type="text" id="uhl-theta-input" class="form-control"
+                                        aria-label="Rate of reversion to the mean" aria-describedby="uhl-theta">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vasicek Parameters -->
+                <div id="vas-parameters" class="row d-none">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="input-group input-group">
+                                    <span class="input-group-text" id="vas-mu">mu</span>
+                                    <input type="text" id="vas-mu-input" class="form-control"
+                                        aria-label="Long-term mean" aria-describedby="vas-mu">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="input-group input-group">
+                                    <span class="input-group-text" id="vas-sigma">sigma</span>
+                                    <input type="text" id="vas-sigma-input" class="form-control" aria-label="Volatility"
+                                        aria-describedby="vas-sigma">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="input-group input-group">
+                                    <span class="input-group-text" id="vas-theta">theta</span>
+                                    <input type="text" id="vas-theta-input" class="form-control"
+                                        aria-label="Rate of reversion to the mean" aria-describedby="vas-theta">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hull-White Parameters -->
+                <div id="hlw-parameters" class="row d-none">
+
+                </div>
+
+                <!-- Cox-Ingersoll-Ross Parameters -->
+                <div id="cir-parameters" class="row d-none">
+
+                </div>
+
+                <!-- Black-Karasinski Parameters -->
+                <div id="blk-parameters" class="row d-none">
+
+                </div>
+
+                <!-- Heston Parameters -->
+                <div id="hst-parameters" class="row d-none">
+
+                </div>
+
+                <!-- Chen Parameters -->
+                <div id="chn-parameters" class="row d-none">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-end">
+            <div class="col-auto">
+                <button type="button" class="btn btn-primary" onclick="simulate()">Simulate!</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        "use strict";
+
+        const Global = {
+            currentSelection: 'abm',
+            m: undefined,
+            n: undefined,
+            dt: undefined
+        };
+
+        const Abm = {
+            mu: undefined,
+            sigma: undefined
+        };
+
+        const Gbm = {
+            mu: undefined,
+            sigma: undefined
+        };
+
+        const Uhl = {
+            theta: undefined,
+            sigma: undefined,
+            mu: undefined
+        };
+
+        const Vas = {
+            a: undefined,
+            theta: undefined,
+            sigma: undefined
+        };
+
+        const Hlw = {
+
+        };
+
+        const Cir = {
+
+        };
+
+        const Blk = {
+
+        };
+
+        const Hst = {
+
+        };
+
+        const Chn = {
+
+        };
+
+        const myCanvas = document.getElementById("myCanvas");
+        const ctx = myCanvas.getContext('2d');
+
+        myCanvas.width = myCanvas.parentElement.offsetWidth
+        myCanvas.height = myCanvas.parentElement.offsetHeight;
+        ctx.transform(1, 0, 0, -1, 0, myCanvas.height);
+
+        window.addEventListener('resize', () => {
+            myCanvas.width = myCanvas.parentElement.offsetWidth
+            myCanvas.height = myCanvas.parentElement.offsetHeight;
+            ctx.transform(1, 0, 0, -1, 0, myCanvas.height);
+        });
+
+
+        ResizableRectangle.initialState.rectangle = new Rectangle(10, 10, 700, 500);
+        ResizableRectangle.initialState.ctx = ctx;
+        ResizableRectangle.initialState.outlineColor = "Green";
+        ResizableRectangle.initialState.lineWidth = 2;
+        ResizableRectangle.initialState.lineDash = [1, 1];
+
+        const ResizableRectangle1 = new ResizableRectangle(ResizableRectangle.initialState);
+        const paramDivs = ["abm-parameters", "gbm-parameters", "uhl-parameters", "vas-parameters", "hlw-parameters", "cir-parameters", "blk-parameters", "hst-parameters", "chn-parameters"];
+
+        let c1;
+
+        function showParameters(name, nameParam) {
+
+            paramDivs.forEach((val) => {
+                const el = document.getElementById(val);
+                el.classList.add("d-none");
+            });
+
+            const element = document.getElementById(nameParam);
+            // Show the selected parameter list
+            element.classList.remove('d-none');
+            Global.currentSelection = name;
+        }
+
+        function rnorm(mean, stdev) {
+            var u1, u2, v1, v2, s;
+            if (mean === undefined) {
+                mean = 0.0;
+            }
+            if (stdev === undefined) {
+                stdev = 1.0;
+            }
+            if (rnorm.v2 === null) {
+                do {
+                    u1 = Math.random();
+                    u2 = Math.random();
+
+                    v1 = 2 * u1 - 1;
+                    v2 = 2 * u2 - 1;
+                    s = v1 * v1 + v2 * v2;
+                } while (s === 0 || s >= 1);
+
+                rnorm.v2 = v2 * Math.sqrt(-2 * Math.log(s) / s);
+                return stdev * v1 * Math.sqrt(-2 * Math.log(s) / s) + mean;
+            }
+
+            v2 = rnorm.v2;
+            rnorm.v2 = null;
+            return stdev * v2 + mean;
+        }
+
+        function ABM(values, trajectory, t) {
+            return values[trajectory][t - 1] + rnorm(Abm.mu * Global.dt, Abm.sigma * Math.sqrt(Global.dt));
+        }
+
+        function GBM(values, trajectory, t) {
+            return values[trajectory][t - 1] * Math.exp((Gbm.mu - 0.5 * Gbm.sigma ^ 2) * Global.dt + Gbm.sigma * rnorm(Gbm.mu * Global.dt, Gbm.sigma * Math.sqrt(Global.dt)));
+        }
+
+        function Uhlenbeck(values, trajectory, t) {
+            return values[trajectory][t - 1] + Uhl.theta * (Uhl.mu - values[trajectory][t - 1]) * Global.dt + Uhl.sigma * rnorm(0, Global.dt);
+        }
+
+        function Vasicek(values, trajectory, t) {
+            return values[trajectory][t - 1] + Vas.a * (Vas.theta - values[trajectory][t - 1]) * Global.dt + Vas.sigma * rnorm(0, Global.dt);
+        }
+
+        function HullWhite(values, trajectory, t) {
+            return values[trajectory][t - 1] + Hlw.a * (Hlw.theta - values[trajectory][t - 1]) * Global.dt + Hlw.sigma * rnorm(0, Global.dt);
+        }
+
+        //TODO
+        function CIR(values, trajectory, t) {
+            return 1;
+        }
+
+        //TODO
+        function BlackKarasinski(values, trajectory, t) {
+            return 1;
+        }
+
+        //TODO
+        function Heston(values, trajectory, t) {
+            return 1;
+        }
+
+        //TODO
+        function Chen(values, trajectory, t) {
+            return 1;
+        }
+
+        function simulate() {
+
+            const mInput = document.getElementById('m-input');
+            const nInput = document.getElementById('n-input');
+
+            Global.m = parseInt(mInput.value);
+            Global.n = parseInt(nInput.value);
+            Global.dt = 1.0 / Global.n;
+
+            let YFunc = null;
+
+            if (Global.currentSelection === 'abm') {
+
+                const muInput = document.getElementById('abm-mu-input');
+                const sigmaInput = document.getElementById('abm-sigma-input');
+
+                Abm.mu = parseFloat(muInput.value);
+                Abm.sigma = parseFloat(sigmaInput.value);
+
+                c1 = new Chart(1, Global.m, Global.n, ABM);
+
+            }
+            else if (Global.currentSelection === 'gbm') {
+
+                const muInput = document.getElementById('gbm-mu-input');
+                const sigmaInput = document.getElementById('gbm-sigma-input');
+
+                Gbm.mu = parseFloat(muInput.value);
+                Gbm.sigma = parseFloat(sigmaInput.value);
+
+                c1 = new Chart(1, Global.m, Global.n, GBM);
+
+            }
+            else if (Global.currentSelection === 'uhl') {
+
+                const thetaInput = document.getElementById('uhl-theta-input');
+                const muInput = document.getElementById('uhl-mu-input');
+                const sigmaInput = document.getElementById('uhl-sigma-input');
+
+                Uhl.theta = parseFloat(thetaInput.value);
+                Uhl.mu = parseFloat(muInput.value);
+                Uhl.sigma = parseFloat(sigmaInput.value);
+
+                console.log(Uhl.theta, Uhl.mu, Uhl.sigma);
+
+                c1 = new Chart(1, Global.m, Global.n, Uhlenbeck);
+
+            }
+            else if (Global.currentSelection === 'vas') {
+
+                // TODO: get parameters
+
+                c1 = new Chart(1, Global.m, Global.n, Vasicek);
+            }
+            else if (Global.currentSelection === 'hlw') {
+
+                // TODO: get parameters
+
+                c1 = new Chart(1, Global.m, Global.n, HullWhite);
+            }
+            else if (Global.currentSelection === 'cir') {
+
+                // TODO: get parameters
+
+                c1 = new Chart(1, Global.m, Global.n, CIR);
+            }
+            else if (Global.currentSelection === 'blk') {
+
+                // TODO: get parameters
+
+                c1 = new Chart(1, Global.m, Global.n, BlackKarasinski);
+            }
+            else if (Global.currentSelection === 'hst') {
+
+                // TODO: get parameters
+
+                c1 = new Chart(1, Global.m, Global.n, Heston);
+            }
+            else if (Global.currentSelection === 'chn') {
+
+                // TODO: get parameters
+
+                c1 = new Chart(1, Global.m, Global.n, Chen);
+            }
+    
+            setInterval(drawScene, 15);
+        }
+
+        function drawScene() {
+
+            ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
+
+            ResizableRectangle1.drawChart2(c1);
+
+        }
+
+    </script>
+</body>
+
+</html>
